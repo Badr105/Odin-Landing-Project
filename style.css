@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: black;
+    /* background-color: black; */
     justify-self: baseline;
 }
 
@@ -24,6 +24,7 @@ body {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 600;
 }
 
 .body {
@@ -47,10 +48,11 @@ body {
 button {
     color: #f9faf8;
     background-color: #3882f6;
-    padding: 8px 20px;
+    padding: 8px 30px;
     border-radius: 8px;
     border: none;
     font-size: 18px;
+    font-weight: 500;
 }
 
 .img {
@@ -98,7 +100,7 @@ ul {
 }
 
 .card {
-    border: #3882f6 solid 4px;
+    border: #3882f6 solid 5px;
     border-radius: 10px;
     width: 170px;
     height: 170px;
@@ -130,4 +132,30 @@ ul {
     padding-top: 8px;
     display: flex;
     justify-content: end;
+}
+
+.call-action {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 80px 200px;
+    padding: 50px 100px;
+    border-radius: 10px;
+
+}
+
+.call-action button {
+    border: white solid 2px;
+    padding: 8px 30px;
+    height: 38px;
+}
+
+.footer {
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
 }
