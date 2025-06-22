@@ -7,7 +7,7 @@
 
 body {
     background-color: black;
-        justify-self: baseline;
+    justify-self: baseline;
 }
 
 .hero, .footer {
@@ -28,7 +28,7 @@ body {
 
 .body {
     margin: 100px 0;
-    gap: 2em;
+    gap: 2.5rem;
 }
 
 .main {
@@ -55,7 +55,7 @@ button {
 
 .img {
     background-color: rgb(112, 112, 112);
-    width: 750px;
+    width: 900px;
     height: 250px;
     padding: 50px 70px;
     display: flex;
@@ -109,4 +109,25 @@ ul {
     font-size: 18px;
     width: 170px;
     text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    padding: 130px 300px;
+
+}
+
+.text {
+    color: #1f2937a1;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.from {
+    font-size: 24px;
+    font-weight: 900;
+    padding-top: 8px;
+    display: flex;
+    justify-content: end;
 }
